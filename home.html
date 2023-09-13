@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selera Kita</title>
+    <style>
+        body {
+            font-family: "arial", sans-serif;
+            margin : 0;
+            padding : 0;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .recipe-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .recipe-item {
+            margin-bottom: 10px;
+        }
+        .recipe-link {
+            text-decoration: none;
+            color: #333333;
+            border-bottom: 1px solid #0e0c0c;
+        }
+        /*css untuk tata letak gambar dan deskripsi */
+       .recipe-container{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .recipe-image {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        /* CSS untuk navbar */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: right;
+        }
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .navbar li {
+            display: inline;
+            margin-left: 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "navbar">
+        <ul>
+            <li><a href ="home.html">Home</a></li>
+            <li><a href="tentangkami.html">Tentang Kami</a></li>
+            <li><a href="kontakami.html">Kontak</a></li>
+        </ul>
+    </div>
+
+    <h1>Welcome to Selera Kita</h1>
+    
+    <div class="recipe-container">
+        <h2>Resep 1: Nasi Goreng</h2>
+        
+        <img class="recipe-image" src="nasgor.png" alt="Nasi Goreng">
+        <p>
+            Nasi goreng adalah makanan berupa nasi yang digoreng dan dicampur dalam minyak goreng, margarin, atau mentega. Biasanya ditambah dengan kecap manis, bawang merah, bawang putih, asam jawa, lada dan bahan lainnya; seperti telur, daging ayam, dan kerupuk.
+            <a href="resepnasgor.html">Lihat Resep</a>
+        </p>
+    </div>
+
+    <div class="recipe-container">
+        <h2>Resep 2: Soto Ayam</h2>
+        <img class="recipe-image" src="soto.jpg" alt="Resep Soto">
+        <p>
+            Soto ayam adalah makanan khas Indonesia yang berupa sejenis sup ayam dengan kuah yang berwarna kekuningan. Warna kuning ini dikarenakan oleh kunyit yang digunakan sebagai bumbu. Soto ayam banyak ditemukan di daerah-daerah di Indonesia dan Singapura.
+            <a href="resep soto.html">Lihat Resep</a>
+        </p>
+    </div>
+
+    <div class ="recipe-container">
+        <h2>Resep 3: Rawon</h2>
+        <img class ="recipe-image" src="rawon.png" alt="Resep Rawon">
+        <p>
+            Rawon adalah sebuah hidangan tradisional Indonesia yang terkenal, terutama di daerah Jawa Timur. Hidangan ini merupakan semacam sup berwarna hitam pekat yang memiliki rasa yang khas dan kaya rempah. Bahan utama dari rawon adalah daging sapi, terutama bagian daging sapi yang empuk seperti tengkleng atau iga. Keunikan warna hitam pada rawon berasal dari penggunaan bumbu khas yang disebut "kluwek" atau "keluak."
+            <a href = "resep rawon.html">Lihat Resep</a>
+        </p>
+    </div>
+    
